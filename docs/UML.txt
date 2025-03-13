@@ -1,0 +1,33 @@
+    +----------------+
+    |   Customer     |
+    +----------------+
+    | - name        |
+    | - address     |
+    | - phoneNumber |
+    +----------------+
+    | + getName()   |
+    +----------------+
+
+    +----------------+
+    |   Seat         |
+    +----------------+
+    | - seatNumber  |
+    | - available   |
+    | - customer    |
+    +----------------+
+    | + book()      |
+    | + cancel()    |
+    | + getCustomer() |
+    +----------------+
+
+    +----------------+
+    |   Flight       |
+    +----------------+
+    | - flightNumber |
+    | - seats        |
+    +----------------+
+    | + bookSeat()   |
+    | + cancelBooking() |
+    | + displaySeats()  |
+    | + printManifest() |
+    +----------------+
